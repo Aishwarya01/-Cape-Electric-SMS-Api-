@@ -31,7 +31,7 @@ public class SMSController {
 	@GetMapping("/sendOtp/{mobileNumber}")
 	public ResponseEntity<String> sendOtp(@PathVariable String mobileNumber) throws UnirestException, SMSException {
 		
-		logger.info("Started sendOtp function userName: {}",mobileNumber);
+		logger.info("Started sendOtp function userName: {}", mobileNumber);
 
 		String responseMessage = smsService.sendOtp(mobileNumber);
 		
@@ -44,7 +44,7 @@ public class SMSController {
 	public ResponseEntity<String> verifyOtp(@PathVariable String sessionId, @PathVariable String otp)
 			throws UnirestException, SMSException {
 		
-		logger.info("Started verifyOtp function userName: {}, OTP: {}",sessionId,otp);
+		logger.info("Started verifyOtp function userName: {}, OTP: {}", sessionId, otp);
 
 		String responseMessage = smsService.verifyOtp(sessionId, otp);
 		

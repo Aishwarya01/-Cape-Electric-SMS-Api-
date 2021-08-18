@@ -21,6 +21,13 @@ import com.mashape.unirest.http.exceptions.UnirestException;
 public class SMSServiceImpl implements SMSService {
 
 	private static final Logger logger = LoggerFactory.getLogger(SMSServiceImpl.class);
+	
+	private static final String URL = "https://2factor.in/API/V1/";
+	
+	private static final String SEND_OTP = "/SMS/";
+	
+	private static final String VERIFY_OTP = "/SMS/VERIFY/";
+	
 
 	@Autowired
 	private SMSConfig smsProperties;
@@ -36,8 +43,8 @@ public class SMSServiceImpl implements SMSService {
 
 				logger.info("Calling...  2Factor_API Service for Sending OTP");
 				response = Unirest
-						.get("https://2factor.in/API/V1/" + smsProperties.getApiKey() + "/SMS/" + mobileNumber + "/"
-								+ smsProperties.getOtpType() + "/" + smsProperties.getTemplateName())
+						.get(URL + smsProperties.getApiKey() + SEND_OTP + mobileNumber + "/"
+								+ smsProperties.getOtpType() + "/" + smsProperties.getTemplateName()) 
 						.header("content-type", "application/x-www-form-urlencoded").asString();
 
 			} catch (Throwable e) {
@@ -63,8 +70,8 @@ public class SMSServiceImpl implements SMSService {
 			try {
 				logger.info("Calling...  2Factor_API Verifying OTP Service");
 
-				response = Unirest.get("https://2factor.in/API/V1/" + smsProperties.getApiKey() + "/SMS/VERIFY/"
-						+ sessionId + "/" + otp).header("content-type", "application/x-www-form-urlencoded").asString();
+				response = Unirest.get(URL + smsProperties.getApiKey() + VERIFY_OTP + sessionId + "/" + otp)
+						.header("content-type", "application/x-www-form-urlencoded").asString();
 
 			} catch (Throwable e) {
 				logger.info("Calling...  2Factor_API Verifying OTP Service was Faild :" + e.getMessage());
