@@ -1,0 +1,47 @@
+2021-08-20T20:03:53.689+0530 INFO Starting CapeElectricSmsApiApplication using Java 1.8.0_271 on DESKTOP-PUJTA74 with PID 8332 (C:\Users\gopa0\sathish\backend\latest\Cape-Electric-SMS-Api\target\classes started by capeelectricsoftware in C:\Users\gopa0\sathish\backend\latest\Cape-Electric-SMS-Api)
+2021-08-20T20:03:53.693+0530 DEBUG Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-08-20T20:03:53.693+0530 INFO No active profile set, falling back to default profiles: default
+2021-08-20T20:03:58.333+0530 INFO Started CapeElectricSmsApiApplication in 5.162 seconds (JVM running for 5.826)
+2021-08-20T20:06:34.609+0530 INFO Started sendOtp function userName: 7358021553
+2021-08-20T20:06:34.612+0530 INFO Calling...  2Factor_API Service for Sending OTP
+2021-08-20T20:06:36.140+0530 INFO 2Factor_API SendOtp Service Call Ended : 200
+2021-08-20T20:06:36.140+0530 INFO Ended sendOtp function in SMScontroller
+2021-08-20T20:25:45.651+0530 INFO Started sendOtp function userName: 7358021553
+2021-08-20T20:25:45.654+0530 INFO Calling...  2Factor_API Service for Sending OTP
+2021-08-20T20:25:46.381+0530 INFO 2Factor_API SendOtp Service Call Ended : 200
+2021-08-20T20:25:46.381+0530 INFO Ended sendOtp function in SMScontroller
+2021-08-20T20:42:12.159+0530 INFO Started sendOtp function userName: 7358021553
+2021-08-20T20:42:12.163+0530 INFO Calling...  2Factor_API Service for Sending OTP
+2021-08-20T20:42:13.029+0530 INFO 2Factor_API SendOtp Service Call Ended : 200
+2021-08-20T20:42:13.030+0530 INFO Ended sendOtp function in SMScontroller
+2021-08-21T11:25:54.588+0530 INFO Starting CapeElectricSmsApiApplication using Java 1.8.0_271 on DESKTOP-PUJTA74 with PID 16488 (C:\Users\gopa0\sathish\backend\latest\Cape-Electric-SMS-Api\target\classes started by capeelectricsoftware in C:\Users\gopa0\sathish\backend\latest\Cape-Electric-SMS-Api)
+2021-08-21T11:25:54.591+0530 DEBUG Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-08-21T11:25:54.591+0530 INFO No active profile set, falling back to default profiles: default
+2021-08-21T11:25:57.592+0530 INFO Started CapeElectricSmsApiApplication in 3.398 seconds (JVM running for 3.988)
+2021-08-21T11:26:30.785+0530 INFO Started sendOtp function userName: 7358021553
+2021-08-21T11:26:30.788+0530 INFO Calling...  2Factor_API Service for Sending OTP
+2021-08-21T11:26:32.672+0530 INFO 2Factor_API SendOtp Service Call Ended : 200
+2021-08-21T11:26:32.672+0530 INFO Ended sendOtp function in SMScontroller
+2021-08-21T11:29:44.269+0530 INFO Started sendOtp function userName: 7358021553
+2021-08-21T11:29:44.269+0530 INFO Calling...  2Factor_API Service for Sending OTP
+2021-08-21T11:29:44.818+0530 INFO 2Factor_API SendOtp Service Call Ended : 200
+2021-08-21T11:29:44.818+0530 INFO Ended sendOtp function in SMScontroller
+2021-08-23T08:32:48.659+0530 INFO Starting CapeElectricSmsApiApplicationTests using Java 1.8.0_271 on DESKTOP-PUJTA74 with PID 18228 (started by capeelectricsoftware in C:\Users\gopa0\sathish\backend\latest\Cape-Electric-SMS-Api)
+2021-08-23T08:32:48.660+0530 DEBUG Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-08-23T08:32:48.663+0530 INFO No active profile set, falling back to default profiles: default
+2021-08-23T08:32:53.057+0530 INFO Started CapeElectricSmsApiApplicationTests in 4.815 seconds (JVM running for 6.721)
+2021-08-23T09:35:13.287+0530 INFO Starting CapeElectricSmsApiApplicationTests using Java 1.8.0_271 on DESKTOP-PUJTA74 with PID 14736 (started by capeelectricsoftware in C:\Users\gopa0\sathish\backend\latest\Cape-Electric-SMS-Api)
+2021-08-23T09:35:13.288+0530 DEBUG Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-08-23T09:35:13.334+0530 INFO No active profile set, falling back to default profiles: default
+2021-08-23T09:44:58.274+0530 INFO Starting CapeElectricSmsApiApplicationTests using Java 1.8.0_271 on DESKTOP-PUJTA74 with PID 21708 (started by capeelectricsoftware in C:\Users\gopa0\sathish\backend\latest\Cape-Electric-SMS-Api)
+2021-08-23T09:44:58.313+0530 DEBUG Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-08-23T09:44:58.313+0530 INFO The following profiles are active: dev
+2021-08-23T09:45:02.536+0530 INFO Started CapeElectricSmsApiApplicationTests in 4.782 seconds (JVM running for 6.772)
+2021-08-23T09:47:09.058+0530 INFO Starting CapeElectricSmsApiApplicationTests using Java 1.8.0_271 on DESKTOP-PUJTA74 with PID 20124 (started by capeelectricsoftware in C:\Users\gopa0\sathish\backend\latest\Cape-Electric-SMS-Api)
+2021-08-23T09:47:09.059+0530 DEBUG Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-08-23T09:47:09.060+0530 INFO The following profiles are active: prod
+2021-08-23T09:47:14.834+0530 INFO Started CapeElectricSmsApiApplicationTests in 6.456 seconds (JVM running for 8.486)
+2021-08-23T09:47:53.452+0530 INFO Starting CapeElectricSmsApiApplicationTests using Java 1.8.0_271 on DESKTOP-PUJTA74 with PID 16452 (started by capeelectricsoftware in C:\Users\gopa0\sathish\backend\latest\Cape-Electric-SMS-Api)
+2021-08-23T09:47:53.453+0530 DEBUG Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-08-23T09:47:53.454+0530 INFO The following profiles are active: prod
+2021-08-23T09:48:00.712+0530 INFO Started CapeElectricSmsApiApplicationTests in 7.929 seconds (JVM running for 11.088)

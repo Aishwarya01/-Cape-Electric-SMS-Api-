@@ -1,0 +1,74 @@
+2021-08-20T20:03:57.194+0530 DEBUG ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-08-20T20:03:57.473+0530 DEBUG 4 mappings in 'requestMappingHandlerMapping'
+2021-08-20T20:03:57.553+0530 DEBUG Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-08-20T20:03:57.579+0530 DEBUG ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-08-20T20:06:34.473+0530 INFO Initializing Servlet 'dispatcherServlet'
+2021-08-20T20:06:34.478+0530 DEBUG Detected StandardServletMultipartResolver
+2021-08-20T20:06:34.478+0530 DEBUG Detected AcceptHeaderLocaleResolver
+2021-08-20T20:06:34.479+0530 DEBUG Detected FixedThemeResolver
+2021-08-20T20:06:34.516+0530 DEBUG Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@a155f93
+2021-08-20T20:06:34.518+0530 DEBUG Detected org.springframework.web.servlet.support.SessionFlashMapManager@331a80c3
+2021-08-20T20:06:34.518+0530 DEBUG enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-08-20T20:06:34.518+0530 INFO Completed initialization in 42 ms
+2021-08-20T20:06:34.542+0530 DEBUG GET "/api/v1/sendOtp/7358021553", parameters={}
+2021-08-20T20:06:34.560+0530 DEBUG Mapped to com.capeelectric.controller.SMSController#sendOtp(String)
+2021-08-20T20:06:36.176+0530 DEBUG Using 'text/plain', given [text/plain, application/json, application/*+json, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2021-08-20T20:06:36.177+0530 DEBUG Writing ["{"Status":"Success","Details":"82b7da33-7db8-45f6-891a-51f9f7a0244d"}"]
+2021-08-20T20:06:36.194+0530 DEBUG Completed 202 ACCEPTED
+2021-08-20T20:25:45.456+0530 DEBUG GET "/api/v1/sendOtp/7358021553", parameters={}
+2021-08-20T20:25:45.577+0530 DEBUG Mapped to com.capeelectric.controller.SMSController#sendOtp(String)
+2021-08-20T20:25:46.406+0530 DEBUG Using 'text/plain', given [text/plain, application/json, application/*+json, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2021-08-20T20:25:46.408+0530 DEBUG Writing ["{"Status":"Success","Details":"76aa02aa-b185-4dc8-b5e0-7afc4261c273"}"]
+2021-08-20T20:25:46.416+0530 DEBUG Completed 202 ACCEPTED
+2021-08-20T20:42:11.937+0530 DEBUG GET "/api/v1/sendOtp/7358021553", parameters={}
+2021-08-20T20:42:12.072+0530 DEBUG Mapped to com.capeelectric.controller.SMSController#sendOtp(String)
+2021-08-20T20:42:13.051+0530 DEBUG Using 'text/plain', given [text/plain, application/json, application/*+json, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2021-08-20T20:42:13.052+0530 DEBUG Writing ["{"Status":"Success","Details":"ec34309d-3cd2-41af-9860-7d22f144c755"}"]
+2021-08-20T20:42:13.064+0530 DEBUG Completed 202 ACCEPTED
+2021-08-21T11:25:56.919+0530 DEBUG ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-08-21T11:25:57.037+0530 DEBUG 4 mappings in 'requestMappingHandlerMapping'
+2021-08-21T11:25:57.075+0530 DEBUG Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-08-21T11:25:57.094+0530 DEBUG ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-08-21T11:26:30.732+0530 INFO Initializing Servlet 'dispatcherServlet'
+2021-08-21T11:26:30.734+0530 DEBUG Detected StandardServletMultipartResolver
+2021-08-21T11:26:30.734+0530 DEBUG Detected AcceptHeaderLocaleResolver
+2021-08-21T11:26:30.734+0530 DEBUG Detected FixedThemeResolver
+2021-08-21T11:26:30.736+0530 DEBUG Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@310d2a2
+2021-08-21T11:26:30.736+0530 DEBUG Detected org.springframework.web.servlet.support.SessionFlashMapManager@35aedb7e
+2021-08-21T11:26:30.736+0530 DEBUG enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-08-21T11:26:30.736+0530 INFO Completed initialization in 2 ms
+2021-08-21T11:26:30.749+0530 DEBUG GET "/api/v1/sendOtp/7358021553", parameters={}
+2021-08-21T11:26:30.760+0530 DEBUG Mapped to com.capeelectric.controller.SMSController#sendOtp(String)
+2021-08-21T11:26:32.682+0530 DEBUG Using 'text/plain', given [text/plain, application/json, application/*+json, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2021-08-21T11:26:32.683+0530 DEBUG Writing ["{"Status":"Success","Details":"e18ccab6-3423-44a5-befa-0ab21f4bff57"}"]
+2021-08-21T11:26:32.689+0530 DEBUG Completed 202 ACCEPTED
+2021-08-21T11:29:44.267+0530 DEBUG GET "/api/v1/sendOtp/7358021553", parameters={}
+2021-08-21T11:29:44.268+0530 DEBUG Mapped to com.capeelectric.controller.SMSController#sendOtp(String)
+2021-08-21T11:29:44.822+0530 DEBUG Using 'text/plain', given [text/plain, application/json, application/*+json, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2021-08-21T11:29:44.822+0530 DEBUG Writing ["{"Status":"Success","Details":"bd472f4c-1436-4f7a-84ee-62a721eb8900"}"]
+2021-08-21T11:29:44.824+0530 DEBUG Completed 202 ACCEPTED
+2021-08-23T08:32:48.768+0530 DEBUG Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4b14918a
+2021-08-23T08:32:51.301+0530 DEBUG ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-08-23T08:32:51.600+0530 DEBUG 4 mappings in 'requestMappingHandlerMapping'
+2021-08-23T08:32:51.871+0530 DEBUG Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-08-23T08:32:51.904+0530 DEBUG ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-08-23T08:32:53.907+0530 DEBUG Closing org.springframework.web.context.support.GenericWebApplicationContext@4b14918a, started on Mon Aug 23 08:32:48 IST 2021
+2021-08-23T09:35:13.403+0530 DEBUG Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4b14918a
+2021-08-23T09:44:58.402+0530 DEBUG Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2b4c1d96
+2021-08-23T09:45:01.274+0530 DEBUG ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-08-23T09:45:01.443+0530 DEBUG 4 mappings in 'requestMappingHandlerMapping'
+2021-08-23T09:45:01.712+0530 DEBUG Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-08-23T09:45:01.741+0530 DEBUG ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-08-23T09:45:03.038+0530 DEBUG Closing org.springframework.web.context.support.GenericWebApplicationContext@2b4c1d96, started on Mon Aug 23 09:44:58 IST 2021
+2021-08-23T09:47:09.162+0530 DEBUG Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2b4c1d96
+2021-08-23T09:47:12.917+0530 DEBUG ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-08-23T09:47:13.327+0530 DEBUG 4 mappings in 'requestMappingHandlerMapping'
+2021-08-23T09:47:13.635+0530 DEBUG Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-08-23T09:47:13.677+0530 DEBUG ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-08-23T09:47:15.513+0530 DEBUG Closing org.springframework.web.context.support.GenericWebApplicationContext@2b4c1d96, started on Mon Aug 23 09:47:09 IST 2021
+2021-08-23T09:47:53.537+0530 DEBUG Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2b4c1d96
+2021-08-23T09:47:57.963+0530 DEBUG ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-08-23T09:47:58.364+0530 DEBUG 4 mappings in 'requestMappingHandlerMapping'
+2021-08-23T09:47:58.769+0530 DEBUG Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-08-23T09:47:58.855+0530 DEBUG ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-08-23T09:48:02.080+0530 DEBUG Closing org.springframework.web.context.support.GenericWebApplicationContext@2b4c1d96, started on Mon Aug 23 09:47:53 IST 2021
