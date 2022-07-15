@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.capeelectric</groupId>
-	<artifactId>Cape-Electric-SMS-Api</artifactId>
+	<artifactId>cape-electric-sms-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Cape-Electric-SMS-Api</name>
 	<description>Payment Gateway</description>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -56,6 +56,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>solve-sms</finalName>
 	</build>
 	<profiles>
 		<profile>
